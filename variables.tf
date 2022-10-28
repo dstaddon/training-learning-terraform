@@ -19,7 +19,7 @@ variable "ami_filter" {}
   
 
 variable "environment" {
-  description = Development environment"
+  description = "Development environment"
 
   type = object({
     name           = string
